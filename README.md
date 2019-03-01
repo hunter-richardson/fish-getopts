@@ -7,27 +7,11 @@ Getopts is a CLI options parser for the <a href="https://fishshell.com" title="f
 
 ## Installation
 
-Install with [Fisher](https://github.com/jorgebucaran/fisher) (recommended):
+Install with [Fundle](https://github.com/danhper/fundle):
 
 ```
-fisher add jorgebucaran/fish-getopts
+fundle plugin 'hunter-richardson/fish-getops'
 ```
-
-<details>
-<summary>Not using a package manager?</summary>
-
----
-
-Copy [`getopts.fish`](getopts.fish) to any directory on your function path.
-
-```fish
-set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
-curl https://git.io/getopts.fish --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/getopts.fish
-```
-
-To uninstall, remove the file.
-
-</details>
 
 ### System Requirements
 
