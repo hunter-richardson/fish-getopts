@@ -75,7 +75,7 @@ Getopts follows the [POSIX Utility Syntax Guidelines](http://pubs.opengroup.org/
   ```
 
   ```console
-  $ getopts -a alppha
+  $ getopts -a alpha
   a alpha
   ```
 
